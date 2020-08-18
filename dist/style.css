@@ -88,6 +88,11 @@ li{
   font-size: 25px;
 }
 
+#main h2{
+  padding-top: 35px;
+  padding-bottom: 10px;
+}
+
 .features{
   display: flex;
   align-items: center;
@@ -123,6 +128,11 @@ h5{
   font-size: 25px;
 }
 
+#video-cont h2{
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
 #video{
   width:720px;
   height:350px;
@@ -139,6 +149,8 @@ h5{
   max-width:950px;
   margin:auto;
   font-size: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #subscribe-cont{
@@ -178,12 +190,31 @@ h5{
 .sell-wrap{
   border-style:solid;
   border-width: 1px;
-  width: 200px;
-  text-align: center;
-  margin-right: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+  width: 250px;
+  height:360px;
+  text-align: left;
+  margin-right: 20px;
   display:flex;
   flex-direction:column;
   justify-content:space-between;
+  padding:30px;
+}
+
+.sell-wrap ul, .sell-wrap li{
+  margin: 0;
+  padding: 0;
+}
+
+.sell-wrap ul{
+  display:flex;
+  flex-direction: column;
+}
+
+.sell-wrap li{
+  padding-top: 10px;
+  padding-bottom: 8px;
 }
 
 @media screen and (max-width:652px){
@@ -193,7 +224,7 @@ h5{
 }
 
 .buy{
-  width:100px;
+  width:100%;
   align-self:center;
   height:30px;
   background-color:orange;
@@ -237,3 +268,4 @@ footer{
   padding-bottom: 5px;
   padding-right: 20px;
 }
+
